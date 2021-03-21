@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1616264604 source:c:\users\ahmad asmandar\desktop\tut\c\codeblocks\trydebug\main.c
+	<STDIO.H>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+

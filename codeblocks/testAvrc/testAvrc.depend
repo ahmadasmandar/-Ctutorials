@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1616187523 source:c:\users\ahmad asmandar\desktop\tut\c\codeblocks\testavrc\fuse.c
+	<avr/io.h>
+
+1616187763 source:c:\users\ahmad asmandar\desktop\tut\c\codeblocks\testavrc\main.c
+	<avr/io.h>
+	<avr/delay.h>
+
