@@ -2,28 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-// int main(void)
-// {
-//     char *StrArray[] = {"Ahmad", "Jullnar", "Ali", "Zienab"};
-//     int *pNum;
-//     pNum = 20;
-
-//     printf("the number that in Ptr is %d\n", pNum);
-
-//     int *temps;
-//     temps = (int *)malloc(10 * sizeof(int));
-
-//     for (int i = 0; i < 10; i++)
-//     {
-//         if (temps != 0)
-//         {
-//             temps[i] = i * 5;
-//             printf("%d\n", temps[i]);
-//         }
-//     }
-//     free(temps);
-//     return 0;
-// }
 
 int main(void)
 {
@@ -37,9 +15,6 @@ int main(void)
         printf("please enter the first name 10 chars: \n");
         scanf("%s", iptr);
         printf("%s \n", iptr);
-
-        // printf("hold value: %s \n", hold);
-        // StrArray[i] = (char *)malloc(20 * sizeof(char));
         len = strlen(iptr);
         if (iptr[len - 1] == '\n')
         {
