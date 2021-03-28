@@ -6,7 +6,7 @@ int main()
 {
     //the safe way to use pointer Strings
     char input[80];
-    char *pInput   = input;
+    char *pInput   = input;                        // it is the same when u use &input[0] because it is an array
     char **s_array = calloc(4096, sizeof(char *)); // enough for 4096 strings
 
     for (int count = 0; count < 3; count++)
@@ -14,7 +14,7 @@ int main()
         printf("please enter the first name 10 chars: \n");
         scanf("%s", pInput);
         printf("%s \n", pInput);
-        
+
         int len = strlen(pInput);
         if (pInput[len - 1] == '\n')
         {

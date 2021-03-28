@@ -27,7 +27,9 @@ int main()
     scanf_s(" %d", &aSize);
     // Allocate an array of integers equal to the number of
     // elements requested by the user
-    randomNums = (int *)malloc(aSize * sizeof(int));
+
+    // randomNums = (int *)malloc(aSize * sizeof(int));
+    randomNums = calloc(aSize, sizeof(int *));
     // Test to ensure that the array allocated properly
     if (!randomNums)
     {
@@ -61,7 +63,8 @@ int main()
         }
     }
     average = ((float)total) / ((float)aSize);
-    printf("The biggest random_pointer number is %d.\n", randomNums[0]);
+
+    // printf("The biggest random_pointer number is %d.\n", randomNums[0]);
     printf("The biggest random number is %d.\n", biggest);
     printf("The smallest random number is %d.\n", smallest);
     printf("The average of the random numbers is %.2f.\n", average);
